@@ -1,6 +1,6 @@
 FROM scratch
-MAINTAINER Eric Windisch <ewindisch@docker.com>
-ADD cirros-0.3.3-x86_64-lxc.tar.gz /
+MAINTAINER Eric Windisch <eric@windisch.us>
+ADD cirros-0.3.4-x86_64-lxc.tar.gz /
 
 # Don't configure network
 RUN rm /etc/rc3.d/S40-network
